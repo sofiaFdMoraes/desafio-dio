@@ -1,1 +1,4 @@
-console.log("oi")
+
+let nome = "sofia"
+
+console.log(nome)
