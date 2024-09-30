@@ -1,10 +1,11 @@
-let nome = "Hero One"
-let xp = 11000
+let nome = "Sofia"
+let xp = 200
 let nivel
 
 
 if(xp <= 1000) {nivel = "Ferro"}
 
+else if (xp <= 1000) {nivel = "Ferro"}
 else if (xp >= 1001 && xp <= 2000){nivel = "Bronze"}
 else if (xp >= 2001 && xp <= 5000){nivel = "Prata"}
 else if (xp >= 5001 && xp <= 7000){nivel = "Ouro"}
@@ -14,7 +15,4 @@ else if (xp >= 9001 && xp <= 10000){nivel = "Imortal"}
 
 else {nivel = "Radiante"}
 
-console.log(
-    "O herói de nome " + nome 
-    + " com XP igual a " + xp 
-    + " está no nível " + nivel + ".")
+console.log("O herói de nome " + nome + " está no nível " + nivel + ".")
