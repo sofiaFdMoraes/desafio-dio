@@ -1,5 +1,5 @@
 let nome = "Sofia"
-let xp = 100
+let xp = 11000
 let nivel
 
 
